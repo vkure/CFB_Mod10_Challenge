@@ -13,7 +13,7 @@ The application is written in Python 3.7 in a Jupyter notebook with support from
 
 *[Pandas] (https://github.com/pandas) - Data Analysis
 
-*[SKLearn] (https://github.com/sklearn) - Advanced Data Anaylsis and Machine Learning; KMeans / PCA / StandardScaler
+*[SKLearn] (https://github.com/scikit-learn) - Advanced Data Anaylsis and Machine Learning; KMeans / PCA / StandardScaler
 
 *[Path] (https://github.com/path) - CSV File Reading
 
