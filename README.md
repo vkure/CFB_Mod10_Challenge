@@ -2,9 +2,7 @@
 # Crypto Performance
 
 
-This is a Python-based machine learning tool that produces visualizations of crypto returns. The analysis includes pulling crypto return data and then standardizing it.  Next an optimal K is determined; this optimal K is used to cluster the crypto currenices.  
-
-PCA is applied to reduce the dimensionality of the data.  Then the K-means clustering is repeated on the PCA vectors.  Finally a visualization is produced showing crypto returns. 
+This is a Python-based machine learning tool that produces visualizations of crypto returns. The analysis includes pulling crypto return data and then standardizing it.  Next an optimal K is determined; this optimal K is used to cluster the crypto currenices.  PCA is applied to reduce the dimensionality of the data.  Then the K-means clustering is repeated on the PCA vectors.  Finally a visualization is produced showing crypto returns. 
 ---
 
 ## Technologies
@@ -13,7 +11,7 @@ The application is written in Python 3.7 in a Jupyter notebook with support from
 
 *[Pandas] (https://github.com/pandas) - Data Analysis
 
-*[SKLearn] (https://github.com/scikit-learn) - Advanced Data Anaylsis and Machine Learning; KMeans / PCA / StandardScaler
+*[SKLearn] (https://github.com/scikit-learn) - Advanced Data Anaylsis and Machine Learning: KMeans / PCA / StandardScaler
 
 *[Path] (https://github.com/path) - CSV File Reading
 
@@ -28,11 +26,11 @@ Install scikit-learn through command **pip install -U scikit-learn**
 
 ## Usage and Content
 
-To see the analysis, pls clone the repository and open **crypto_investments* in JupyterLab.  
+To see the analysis, pls clone the repository and open **crypto_investments** in JupyterLab.  
 
 Here are some images from the tool:
 
-![Elbow Charts for K-means](Images/ElbowCharts.PNG)
+![Elbow Charts for K-means](Images/ElbowPlots.PNG)
 ![Crypto Clusters (Original and PCA)](Images/CryptoClusters.PNG)
 
 ## Contributors
