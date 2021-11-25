@@ -1,8 +1,8 @@
-# CFB_Mod10_Challenge
 # Crypto Performance
 
 
 This is a Python-based machine learning tool that produces visualizations of crypto returns. The analysis includes pulling crypto return data and then standardizing it.  Next an optimal K is determined; this optimal K is used to cluster the crypto currenices.  PCA is applied to reduce the dimensionality of the data.  Then the K-means clustering is repeated on the PCA vectors.  Finally a visualization is produced showing crypto returns. 
+
 ---
 
 ## Technologies
